@@ -12,21 +12,24 @@
 }
 
 body.summer {
-  background: linear-gradient(90deg, #c0b279 40%, #c2ab57 100%);
+  /*background: linear-gradient(90deg, #c0b279 40%, #c2ab57 100%);*/
+  background-image: url(../assets/summer\ bg.png);
+  background-size: 100vw auto;
+  background-repeat: repeat;
   --primary-teal: #ddcb67;
   --primary-dark-teal: #ffd034;
-  --accent-lime: #FFC400;
+  --accent-lime: #ffc400;
   --card-bg: rgba(255, 255, 255, 0.95);
   --card-border: rgba(0, 191, 165, 0.3);
-  --text-primary: #004D40;
-  --text-secondary: #00796B;
+  --text-primary: #004d40;
+  --text-secondary: #00796b;
   --shadow: 0 8px 32px rgba(255, 196, 0, 0.2);
   --btn-bg: #ff9100;
-  --btn-hover-bg: #FF6D00;
+  --btn-hover-bg: #ff6d00;
 }
 
 body.light {
-    background: #e6eff6;
+  background: #e6eff6;
   --primary-teal: #4ecdc4;
   --primary-dark-teal: #26d0ce;
   --accent-lime: #a4d65e;
@@ -39,7 +42,10 @@ body.light {
 }
 
 body.dark {
-  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  /*background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);*/
+  background-image: url(../assets/dark\ bg.png);
+  background-size: 100vw auto;
+  background-repeat: repeat;
   --primary-teal: #5dade2;
   --primary-dark-teal: #3498db;
   --accent-lime: #58d68d;
@@ -53,7 +59,10 @@ body.dark {
 }
 
 body.spring {
-  background: linear-gradient(135deg, #a8e6cf 0%, #dcedc8 100%);
+  /*background: linear-gradient(135deg, #a8e6cf 0%, #dcedc8 100%);*/
+  background-image: url(../assets/spring\ bg.png);
+  background-size: 100vw auto;
+  background-repeat: repeat;
   --primary-teal: #4caf50;
   --primary-dark-teal: #388e3c;
   --accent-lime: #8bc34a;
@@ -61,13 +70,16 @@ body.spring {
   --card-border: rgba(76, 175, 80, 0.2);
   --text-primary: #1b5e20;
   --text-secondary: #388e3c;
-  --shadow: 0 8px 32px rgba(76, 175, 80, 0.15); 
+  --shadow: 0 8px 32px rgba(76, 175, 80, 0.15);
   --btn-bg: #4caf50;
   --btn-hover-bg: #388e3c;
 }
 
 body.autumn {
-  background: linear-gradient(135deg, #ffab91 0%, #ffcc80 100%);
+  /*background: linear-gradient(135deg, #ffab91 0%, #ffcc80 100%);*/
+  background-image: url(../assets/autum\ bg.png);
+  background-size: 100vw auto;
+  background-repeat: repeat;
   --primary-teal: #ff7043;
   --primary-dark-teal: #f4511e;
   --accent-lime: #ffa726;
@@ -81,7 +93,10 @@ body.autumn {
 }
 
 body.winter {
-  background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%);
+  /*background: linear-gradient(135deg, #e1f5fe 0%, #b3e5fc 100%);*/
+  background-image: url(../assets/winter\ bg.png);
+  background-size: 100vw auto;
+  background-repeat: repeat;
   --primary-teal: #0277bd;
   --primary-dark-teal: #01579b;
   --accent-lime: #29b6f6;
@@ -101,7 +116,7 @@ body.winter {
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   min-height: 100vh;
   transition: all 0.4s ease;
   padding: 20px;
@@ -328,7 +343,7 @@ footer {
   .flex-container {
     flex-direction: column;
   }
-  
+
   .card {
     padding: 25px;
   }
