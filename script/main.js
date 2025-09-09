@@ -36,7 +36,7 @@ dropdownContent.addEventListener('click', (e) => {
 
 function setTheme(theme) {
 
-    body.classList.remove('light', 'dark', 'spring', 'autumn', 'winter');
+    body.classList.remove('summer','light', 'dark', 'spring', 'autumn', 'winter');
 
     body.classList.add(theme);
 
